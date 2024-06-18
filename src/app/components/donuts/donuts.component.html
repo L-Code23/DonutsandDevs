@@ -1,0 +1,9 @@
+<h1>Donuts</h1>
+<div>
+    @for(d of donutResult.results; track $index)
+    {
+        <a href="{{ d.photo_attribution }}">{{ d.name }}</a>
+        <img class="donut" [src]="d.photo " />
+
+}
+</div>

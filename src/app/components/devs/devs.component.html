@@ -1,0 +1,22 @@
+<h1>Hall Of Fame - Developers</h1>
+<div>
+    @for(d of devsResult.complete; track $index){
+        <table>
+            <tr>
+                <th>First name</th><th>Last Name</th><th>Innovation</th><th>Year</th>
+            </tr>
+            <tr>
+                <td>{{ d.firstName }}</td>
+                <td>{{ d.lastName }}</td>
+                <td>{{ d.innovation }}</td>
+                <td>{{ d.year }}</td>
+            </tr>
+    
+            </table>
+        }
+</div>
+
+
+    
+   
+
